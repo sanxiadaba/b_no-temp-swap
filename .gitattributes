@@ -1,0 +1,9 @@
+# 统一用 LF 入库。
+# Makefile 带 CRLF 在 msys / WSL / macOS 下会让 make 报 "missing separator"，
+# 而 .ps1 用 LF 在 Windows PowerShell 下没有问题——所以统一 LF 是安全的一侧。
+* text=auto eol=lf
+
+# 二进制
+*.pdf binary
+*.exe binary
+*.png binary

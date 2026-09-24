@@ -1,0 +1,15 @@
+# 构建产物。删掉重跑 build.ps1 / make 即可完全重建
+build/
+*.exe
+*.o
+*.obj
+*.s
+*.asm
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
