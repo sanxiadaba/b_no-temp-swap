@@ -1,0 +1,4 @@
+tmp, distinct objects: a=5 b=3
+xor, distinct objects: a=5 b=3
+xor, same object: x=0
+guard, same object: accepted=0 x=3
